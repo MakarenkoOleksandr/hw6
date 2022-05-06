@@ -16,14 +16,6 @@ body {
   width: calc(33% - 2em);
   margin: 1em;
 }
-/* Стиль для второй страницы */
-.card-item2 {
-  border: 2px solid yellow;
-  padding: 20px;
-  width: calc(33.3% - 2em);
-  margin: 1em;
-  float: left;
-}
 .card-item-title {
   display: block;
   font-weight: bold;
@@ -39,6 +31,15 @@ body {
 .card-item-descr {
   display: block;
   text-align: center;
+}
+
+/* Стиль для второй страницы */
+.card-item2 {
+  border: 2px solid yellow;
+  padding: 20px;
+  width: calc(33.3% - 2em);
+  margin: 1em;
+  float: left;
 }
 .clearfix {
   clear: both;
