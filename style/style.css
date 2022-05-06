@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.cards {
+  border: 1px solid blue;
+  width: 100%;
+}
+.card-item {
+  display: inline-block;
+  border: 2px solid yellow;
+  padding: 20px;
+  width: 31.51%;
+  margin: 1em;
+}
+/* Стиль для второй страницы */
+.card-item2 {
+  border: 2px solid yellow;
+  padding: 20px;
+  width: calc(33.33% - 2em);
+  margin: 1em;
+  float: left;
+}
+.card-item-title {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card-item-image {
+  display: block;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+}
+.card-item-descr {
+  display: block;
+  text-align: center;
+}
+.clearfix {
+  clear: both;
+}
